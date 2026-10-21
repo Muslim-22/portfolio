@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
   title: {
     default: "Muslim | Frontend Developer",
-    template: "%s | Muslim",
+    template: "%s",
   },
 
   description:
@@ -65,6 +65,7 @@ export const metadata: Metadata = {
     images: ["/images/logotipi.png"],
   },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
