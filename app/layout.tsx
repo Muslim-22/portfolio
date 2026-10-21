@@ -19,11 +19,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://SENING-SAYTING.vercel.app"),
+  metadataBase: new URL(
+    "https://portfolio-tan-two-o0ktysswsv.vercel.app"
+  ),
 
   title: {
     default: "Muslim | Frontend Developer",
-    template: "%s ",
+    template: "%s | Muslim",
   },
 
   description:
@@ -47,9 +49,7 @@ export const metadata: Metadata = {
     siteName: "Muslim Portfolio",
     images: [
       {
-        url: "/images/logo.png",
-        width: 1200,
-        height: 630,
+        url: "/images/logotipi.png",
         alt: "Muslim — Frontend Developer Portfolio",
       },
     ],
@@ -62,10 +62,9 @@ export const metadata: Metadata = {
     title: "Muslim | Frontend Developer",
     description:
       "Muslimning portfolio sayti, React va Next.js loyihalari.",
-    images: ["/images/logo.png"],
+    images: ["/images/logotipi.png"],
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
