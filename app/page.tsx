@@ -3,7 +3,8 @@ import Main from "@/components/Main";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Muslim | Frontend Developer",
+
   description:
     "Muslimning portfolio sayti. Frontend dasturlash, React va Next.js bo‘yicha loyihalarim bilan tanishing.",
 
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     siteName: "Muslim Portfolio",
     images: [
       {
-        url: "/images/logotipi.png",
+        url: "https://portfolio-tan-two-o0ktysswsv.vercel.app/images/logotipi.png",
         alt: "Muslim — Frontend Developer Portfolio",
       },
     ],
@@ -28,7 +29,9 @@ export const metadata: Metadata = {
     title: "Muslim | Frontend Developer",
     description:
       "Muslimning portfolio sayti, React va Next.js loyihalari.",
-    images: ["/images/logotipi.png"],
+    images: [
+      "https://portfolio-tan-two-o0ktysswsv.vercel.app/images/logotipi.png",
+    ],
   },
 };
 

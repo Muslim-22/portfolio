@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/Footer";
@@ -19,9 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    "https://portfolio-tan-two-o0ktysswsv.vercel.app"
-  ),
+  metadataBase: new URL("https://portfolio-tan-two-o0ktysswsv.vercel.app"),
 
   title: {
     default: "Muslim | Frontend Developer",
@@ -49,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Muslim Portfolio",
     images: [
       {
-        url: "/images/logotipi.png",
+        url: "https://portfolio-tan-two-o0ktysswsv.vercel.app/images/logotipi.png",
         alt: "Muslim — Frontend Developer Portfolio",
       },
     ],
@@ -60,9 +57,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Muslim | Frontend Developer",
-    description:
-      "Muslimning portfolio sayti, React va Next.js loyihalari.",
-    images: ["/images/logotipi.png"],
+    description: "Muslimning portfolio sayti, React va Next.js loyihalari.",
+    images: [
+      "https://portfolio-tan-two-o0ktysswsv.vercel.app/images/logotipi.png",
+    ],
   },
 };
 
