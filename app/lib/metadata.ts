@@ -2,10 +2,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  // Bu yerga Vercel bergan haqiqiy sayting URL manzilini yoz
-  metadataBase: new URL("https://SENING-SAYTING.vercel.app"),
+  metadataBase: new URL(
+    "https://portfolio-tan-two-o0ktysswsv.vercel.app"
+  ),
 
   title: "Muslim | Frontend Developer",
+
   description:
     "Muslimning portfolio sayti. React, Next.js va zamonaviy web loyihalar.",
 
@@ -17,7 +19,7 @@ export const metadata: Metadata = {
     siteName: "Muslim Portfolio",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/logotipi.png",
         width: 1200,
         height: 630,
         alt: "Muslim — Frontend Developer Portfolio",
